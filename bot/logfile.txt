@@ -1,0 +1,2176 @@
+2024-05-13 17:56:36,120 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-13 18:00:39,392 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-13 18:00:39,392 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-13 18:02:39,759 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-13 18:57:20,827 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:20,831 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:26,079 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:26,083 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:32,337 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:32,338 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:40,092 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:40,092 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:47,087 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:47,087 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:57,524 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:57:57,524 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:12,979 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:12,979 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:28,602 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:28,602 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:49,967 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:58:49,967 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:59:19,881 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 18:59:19,881 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:00:02,640 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:00:02,642 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:00:36,907 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:00:36,908 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:01:11,189 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:01:11,189 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:01:45,449 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:01:45,449 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:02:19,715 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:02:19,716 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:02:53,987 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:02:53,988 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:03:28,258 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:03:28,259 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:04:02,525 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:04:02,525 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:04:36,782 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:04:36,783 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:05:11,065 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:05:11,066 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:05:45,343 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:05:45,344 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:06:19,590 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:06:19,590 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:06:53,851 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:06:53,852 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:07:28,142 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:07:28,143 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:08:02,452 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:08:02,453 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:08:36,758 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:08:36,759 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:09:11,028 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:09:11,029 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:09:45,282 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:09:45,282 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:10:19,542 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:10:19,542 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 19:10:39,236 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-13 19:10:39,239 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-13 19:48:13,713 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-13 20:23:54,761 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-13 20:23:54,762 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-13 20:32:21,298 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-13 20:41:07,623 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:07,623 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:12,832 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:12,833 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:19,067 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:19,067 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:26,821 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:26,822 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:34,305 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:34,306 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:44,665 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:41:44,666 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:00,083 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:00,083 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:15,741 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:15,741 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:37,172 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:42:37,172 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:43:07,123 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:43:07,123 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:43:49,830 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:43:49,830 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:44:24,226 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:44:24,226 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:44:58,510 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:44:58,511 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:45:32,788 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:45:32,788 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:46:07,072 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 20:46:07,073 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:16:33,458 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-13 21:16:33,460 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-13 21:19:21,447 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-13 21:32:49,239 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:32:49,239 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:32:54,565 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:32:54,565 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:00,797 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:00,797 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:07,431 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:08,187 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fee3d5c83d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot7042933739:AAGAm8p_HE7HsAVpN--vrUK-AsR_oIl5PP8/sendMessage
+2024-05-13 21:33:09,513 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:13,171 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:13,171 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:20,141 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:20,141 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:28,999 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:28,999 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:37,731 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:37,732 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:50,624 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:33:50,624 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:34:09,949 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:34:09,949 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:34:57,215 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:34:57,215 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:35:39,926 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:35:39,927 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:36:14,221 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:36:14,222 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:36:48,575 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:36:48,575 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:37:22,878 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:37:22,878 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:37:57,140 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:37:57,141 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:38:31,393 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:38:31,394 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:39:06,362 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:39:06,363 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:39:40,785 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:39:40,786 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:39:53,815 - root - INFO - Команда успешно выполнена
+2024-05-13 21:40:15,138 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:40:15,138 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:40:49,437 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:40:49,437 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:41:23,739 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-13 21:41:23,739 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-05-14 11:13:26,467 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:14:01,353 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 137, in get_services
+    output = execute_command(host, port, username, password, "systemctl --all | tail -n 10")
+  File "/bot/bot.py", line 32, in execute_command
+    client.connect(hostname=host, username=username, password=password, port=port)
+  File "/usr/local/lib/python3.9/site-packages/paramiko/client.py", line 409, in connect
+    raise NoValidConnectionsError(errors)
+paramiko.ssh_exception.NoValidConnectionsError: [Errno None] Unable to connect to port 22 on 192.168.88.160
+2024-05-14 11:14:17,296 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:14:17,297 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:14:17,349 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:16:07,046 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:16:10,427 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:16:10,515 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:16:17,301 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:16:17,385 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:16:17,886 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 143, in get_logs
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:16:46,483 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:16:46,483 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:16:46,499 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:19:04,298 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:19:08,838 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:19:09,035 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:19:11,934 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 144, in get_logs
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:20:22,312 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:20:22,312 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:20:22,385 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:20:53,779 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:21:05,241 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:21:05,533 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:21:08,432 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:21:08,771 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:21:09,721 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 144, in get_logs
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:24:50,758 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:24:50,759 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:24:50,809 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:25:24,424 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:25:34,415 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:25:34,725 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:25:38,686 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 144, in get_logs
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:26:02,743 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:26:02,743 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:26:02,793 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:27:49,395 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:27:54,285 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:27:54,654 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:27:59,890 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:28:00,215 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:30:05,793 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:30:05,793 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:30:05,827 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:30:38,781 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:30:39,974 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:30:40,295 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:30:46,158 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:30:46,289 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:35:12,551 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:35:12,551 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:35:12,627 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:35:42,947 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:35:48,997 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:35:49,177 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:35:51,321 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 140, in get_services
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:35:53,946 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:35:54,246 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:36:03,540 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:36:03,866 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:36:04,323 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 140, in get_services
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message text is empty
+2024-05-14 11:37:48,421 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:37:48,421 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 11:37:48,486 - telegram.ext.updater - WARNING - Exiting immediately!
+2024-05-14 11:38:20,450 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 11:38:25,463 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:38:25,755 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:38:38,689 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 11:38:38,994 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 11:52:27,391 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 11:52:27,392 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 16:42:25,524 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 16:42:31,297 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 16:42:31,511 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 16:42:41,231 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-14 16:42:44,034 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 16:42:44,312 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 16:42:48,206 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 16:42:48,374 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 16:53:13,150 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x7fac6c73d0d0>: Failed to establish a new connection: [Errno 101] Network is unreachable')': /bot7042933739:AAGAm8p_HE7HsAVpN--vrUK-AsR_oIl5PP8/getUpdates
+2024-05-14 17:16:54,323 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 149, in helpCommand
+    update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-14 17:17:10,487 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:17:10,658 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:17:17,407 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:17:17,573 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:17:22,216 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:17:22,386 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:17:22,875 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:17:23,045 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:17:23,644 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:17:23,813 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:01,759 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:01,929 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:06,275 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:06,442 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:10,619 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:10,790 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:13,648 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:13,858 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:19,641 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:19,809 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:22,907 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:23,082 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:26,550 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:26,722 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:30,167 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:30,346 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:30,627 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 107, in get_ps
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+2024-05-14 17:18:42,312 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:42,479 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:50,534 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:50,701 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:55,197 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:18:55,369 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:18:55,785 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 107, in get_ps
+    update.message.reply_text(output)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+2024-05-14 17:19:03,507 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:19:03,794 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:19:18,478 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:19:18,646 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:19:27,138 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:19:27,319 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:19:32,598 - root - INFO - Команда успешно выполнена
+2024-05-14 17:19:36,840 - root - INFO - Команда успешно выполнена
+2024-05-14 17:38:27,434 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 17:38:27,434 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 17:39:54,716 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 17:40:45,523 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:40:45,694 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:40:51,147 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 17:40:51,321 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 17:47:01,616 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 373, in echo
+    update.message.reply_text(update.message.text)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-14 17:47:14,556 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-14 17:47:20,575 - root - INFO - Команда успешно выполнена
+2024-05-14 19:12:48,307 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 19:12:48,358 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-14 23:07:34,414 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-14 23:07:55,315 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-14 23:07:55,602 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-14 23:08:05,810 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-14 23:08:11,332 - root - INFO - Команда успешно выполнена
+2024-05-14 23:08:15,046 - root - INFO - Команда успешно выполнена
+2024-05-14 23:08:35,812 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-14 23:08:35,812 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 15:28:02,522 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 15:28:16,500 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 298, in VerifyPassword
+    if passresult1 != None:
+NameError: name 'passresult1' is not defined
+2024-05-15 15:29:35,738 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 15:29:35,738 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 15:29:56,567 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 15:33:54,249 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 15:33:54,249 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 15:36:52,160 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 15:46:40,087 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 26, in start
+    update.message.reply_text(f'Привет {user.full_name}!')
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-15 15:48:09,113 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 15:48:09,328 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 15:48:28,687 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 15:48:28,858 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:01:11,255 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 16:01:11,256 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 16:01:35,301 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 16:02:25,699 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:25,910 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:02:34,084 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:34,252 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:02:34,908 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:35,075 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:02:35,636 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:35,809 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:02:54,539 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:54,754 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:02:58,713 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:02:58,881 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:04,418 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:04,589 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:10,711 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:10,924 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:25,571 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:25,740 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:31,045 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:31,214 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:35,864 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:36,032 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:46,592 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:46,759 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:03:50,843 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:03:51,012 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:04:06,319 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:04:06,488 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:04:14,298 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:04:14,469 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:04:23,206 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:04:23,377 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:06:11,791 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 16:06:11,792 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 16:06:32,943 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 16:08:31,024 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:08:48,021 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:09:20,024 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:20,239 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:24,312 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:24,522 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:25,060 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:25,228 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:25,834 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:26,004 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:33,559 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:33,769 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:42,481 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:42,692 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:09:48,763 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:09:48,956 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:12:38,687 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:12:57,796 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:13:26,027 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:26,235 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:30,405 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:30,572 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:31,041 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:31,253 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:31,791 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:31,962 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:41,735 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:41,906 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:50,038 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:50,208 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:13:54,836 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:13:55,049 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:01,630 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:01,801 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:07,659 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:07,832 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:12,412 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:12,577 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:17,671 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:17,841 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:23,505 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:23,670 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:27,676 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:27,887 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:35,942 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:36,108 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:45,409 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:45,577 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:14:51,674 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:14:51,788 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:27:35,280 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 149, in helpCommand
+    update.message.reply_text(
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-15 16:27:35,325 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 16:27:35,493 - paramiko.transport - INFO - Authentication (password) successful!
+2024-05-15 16:28:23,113 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:28:37,839 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:28:42,212 - root - INFO - Команда успешно выполнена
+2024-05-15 16:28:46,602 - root - INFO - Команда успешно выполнена
+2024-05-15 16:34:13,117 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 16:34:13,118 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 16:34:34,811 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 16:35:17,223 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:35:23,381 - root - INFO - Команда успешно выполнена
+2024-05-15 16:35:39,135 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:35:42,728 - root - INFO - Команда успешно выполнена
+2024-05-15 16:41:45,992 - telegram.ext.updater - INFO - Received signal 15 (SIGTERM), stopping...
+2024-05-15 16:41:45,993 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-05-15 16:42:05,998 - apscheduler.scheduler - INFO - Scheduler started
+2024-05-15 16:42:28,211 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 16:42:32,913 - root - INFO - Команда успешно выполнена
+2024-05-15 18:45:34,788 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 402, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 398, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/local/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/usr/local/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/usr/local/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/local/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 347, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 404, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout,
+  File "/usr/local/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 321, in _raise_timeout
+    raise exc_cls(*args)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=5.0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/bot/bot.py", line 363, in echo
+    update.message.reply_text(update.message.text)
+  File "/usr/local/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/usr/local/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/usr/local/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 356, in post
+    result = self._request_wrapper(
+  File "/usr/local/lib/python3.9/site-packages/telegram/utils/request.py", line 261, in _request_wrapper
+    raise TimedOut() from error
+telegram.error.TimedOut: Timed out
+2024-05-15 18:45:55,455 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 18:48:12,782 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 18:48:38,909 - root - INFO - Адреса успешно записаны в базу данных.
+2024-05-15 18:48:43,897 - root - INFO - Команда успешно выполнена
+2024-05-15 18:48:52,162 - root - INFO - Команда успешно выполнена
+2024-05-15 18:48:57,941 - paramiko.transport - INFO - Connected (version 2.0, client OpenSSH_8.9p1)
+2024-05-15 18:48:58,281 - paramiko.transport - INFO - Authentication (password) successful!
